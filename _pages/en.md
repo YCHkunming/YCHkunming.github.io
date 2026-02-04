@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /en/
 title: "Chen Yang"
 author_profile: true
