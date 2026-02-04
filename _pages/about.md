@@ -1,58 +1,127 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<style>
+  .cv-table { border: none; border-spacing: 0; border-collapse: collapse; margin: 10px 0; width: 100%; } /* 简历列表表格通用样式 */
+  .cv-table td { vertical-align: top; padding-bottom: 8px; } /* 单元格样式：顶部对齐，底部内边距(条目间距) */
+  .cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* 时间列样式：不换行、斜体、右边距 */
+  .highlight { color: #ff9933; font-weight: bold; } /* 名字高亮样式 */
+  .img-center { display: block; margin: 60px auto 0; width: 50%; } /* 底部图片居中样式 */
+  .anchor { display: block; position: relative; top: -50px; visibility: hidden; } /* 锚点定位偏移（防止被导航栏遮挡） */
+</style>
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+长期从事 **AI for Science领域** 的研究工作。主要关注于迁移学习在生物信息领域的应用。
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+**交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想。  
+
+**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可优先送审。  
+   
+
+<span class='anchor' id='educations'></span>
+
+# 🎓 教育经历
+<table class="cv-table"><tr><td class="cv-date">      
+      2025.9&ensp; - 2028.6<br>
+      2019.9&ensp; - 2023.6
+    </td><td>
+      硕士 - 昆明理工大学，信息工程与自动化学院(专业：控制理论与控制工程<br>
+      本科 - 青岛理工大学，信息工程与控制工程学院(专业：自动化)
+    </td></tr>
+</table>
+
+<span class='anchor' id='jobs'></span>  
+
+# 🧑‍💻 工作经历
+<table class="cv-table"><tr><td class="cv-date">      
+      2024.10 - 今<br>
+      2024.10 - 今<br>
+    </td><td>
+      家里蹲<br>
+      社会闲杂人员<br>
+    </td></tr>
+</table>
+
+<span class='anchor' id='jobs2'></span>    
+
+# 🏛️ 学术兼职
+<table class="cv-table"><tr><td class="cv-date">      
+      2026.1 &ensp;- 今<br>
+      2025.8 &ensp;- 今<br>
+    </td><td>
+      昆明美食研究实验室， 创始建设参与<br>
+      野鸡大学创新会议，组委会<br>
+    </td></tr>
+</table>
+
+
+
+
+<span class='anchor' id='projects'></span>  
+
+# 📑 科研项目
+[1]国家不知道项目,昆明卤面吃细面还是宽面,2026,课题负责人  
+
+
+<span class='anchor' id='people'></span>  
+
+# 👥 团队成员
+
+无
+
+
+
+<span class='anchor' id='publications'></span>
+
+
+
+# 📝 学术论文
+还在努力写
+
+
+
+
+
+<span class='anchor' id='award'></span>
+
+# 🌟 奖项荣誉
+<table class="cv-table"><tr><td class="cv-date">       
+      2025.9<br>
+    </td><td>
+      野鸡大学一流学科建设特别引进人才<br>
+    </td></tr>
+</table>
+
+# 🏛️ 学术活动
+<table class="cv-table"><tr><td class="cv-date">      
+      2023.5-今<br>
+      2021.9-今<br>
+    </td><td>
+      野鸡大学校报期刊审稿人<br>
+      中国家里蹲学会， 专业会员<br>
+    </td></tr>
+</table>
+
+# 🙌 其他
+三角洲行动大坝常务鼠鼠
+
+
