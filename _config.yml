@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "杨晨<br>(Chen Yang)"
+  name             : "杨晨<br>Chen Yang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "硕士研究生<br>(Master Student)"
+  bio              : "硕士研究生<br>Master Student"
   location         : "Kunming, China"
-  employer         : "昆明理工大学 (KUST)"
+  employer         : "昆明理工大学<br>Kunming University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "yangchen_kunming@stu.kust.edu.cn"
