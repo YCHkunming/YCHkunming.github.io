@@ -13,13 +13,17 @@ author_profile: true
   .cv-table td { vertical-align: top; padding-bottom: 12px; line-height: 1.6; } 
   .cv-date { width: 150px; min-width: 120px; white-space: nowrap; padding-right: 20px; font-style: italic; color: #666; font-family: monospace; }
   h1 { margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+  /* 添加这个样式是为了抵消顶部导航栏的高度遮挡，确保点击后标题位置精确 */
+  .anchor { display: block; position: relative; top: -100px; visibility: hidden; }
 </style>
 
+<span class="anchor" id="about-me"></span>
 I have been engaged in research in the field of **AI for Science** for a long time, focusing mainly on the application of transfer learning in bioinformatics.
 
 * **Networking**: I look forward to connecting with experts and students to brainstorm new ideas.
 * **Call for Papers**: Welcome to submit to the *Journal of Pheasant University*. High-quality manuscripts will be given priority review.
 
+<span class="anchor" id="educations"></span>
 # 🎓 Education
 <table class="cv-table">
   <tr>
@@ -38,6 +42,7 @@ I have been engaged in research in the field of **AI for Science** for a long ti
   </tr>
 </table>
 
+<span class="anchor" id="jobs"></span>
 # 🧑‍💻 Work Experience
 <table class="cv-table">
   <tr>
@@ -56,6 +61,7 @@ I have been engaged in research in the field of **AI for Science** for a long ti
   </tr>
 </table>
 
+<span class="anchor" id="services"></span>
 # 🏛️ Academic Services
 <table class="cv-table">
   <tr>
@@ -68,15 +74,19 @@ I have been engaged in research in the field of **AI for Science** for a long ti
   </tr>
 </table>
 
+<span class="anchor" id="projects"></span>
 # 📑 Research Projects
 * **[1] National Unknown Project**: Research on the Selection of Thin vs. Wide Noodles for Kunming Braised Noodles, 2026, **Project Leader**.
 
+<span class="anchor" id="people"></span>
 # 👥 Team Members
 * None (Looking for a carry).
 
+<span class="anchor" id="publications"></span>
 # 📝 Publications
 * *Writing in progress...*
 
+<span class="anchor" id="award"></span>
 # 🌟 Honors & Awards
 <table class="cv-table">
   <tr>
@@ -85,6 +95,7 @@ I have been engaged in research in the field of **AI for Science** for a long ti
   </tr>
 </table>
 
+<span class="anchor" id="activities"></span>
 # 🏛️ Professional Activities
 <table class="cv-table">
   <tr>
@@ -97,5 +108,6 @@ I have been engaged in research in the field of **AI for Science** for a long ti
   </tr>
 </table>
 
+<span class="anchor" id="misc-game"></span>
 # 🙌 Misc
 * **Delta Force (Game)**: Expert "Dam Rat" (Strategic Camper at the Dam extraction point).
