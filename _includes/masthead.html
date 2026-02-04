@@ -10,16 +10,21 @@
           
           {% if page.url contains '/english.html' or page.url contains '/en/' %}
             {% assign nav_links = site.data.navigation_en.main %}
-          
+            {% for link in nav_links %}
+              <li class="masthead__menu-item">
+                <a href="/english.html{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+
           {% else %}
             {% assign nav_links = site.data.navigation.main %}
+            {% for link in nav_links %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
           {% endif %}
-
-          {% for link in nav_links %}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
+          
           </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
