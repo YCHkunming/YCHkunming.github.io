@@ -1,5 +1,5 @@
 ---
-permalink: /english/
+permalink: /english.html
 title: "Chen Yang"
 author_profile: true
 ---
