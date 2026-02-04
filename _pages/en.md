@@ -7,6 +7,7 @@ redirect_from:
   - /en/
 ---
 
+
 <div style="text-align: right;">
   <a href="/" style="font-weight: bold; text-decoration: none; border: 1px solid #ccc; padding: 5px 10px; border-radius: 5px;">🇨🇳 Chinese Version</a>
 </div>
