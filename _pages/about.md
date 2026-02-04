@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: right;">
-  <a href="/en.html" style="font-weight: bold; ...">🇺🇸 English Version</a>
+  <a href="/english/" style="...">🇺🇸 English Version</a>
 </div>
 
 <style>
