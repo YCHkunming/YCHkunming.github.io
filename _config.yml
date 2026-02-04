@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "杨晨 (Chen Yang)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "硕士研究生 (Master Student)"
+  bio              : "硕士研究生<br>(Master Student)"
   location         : "Kunming, China"
   employer         : "昆明理工大学 (KUST)"
   pubmed           : 
