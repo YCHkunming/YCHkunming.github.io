@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "杨晨的个人主页"
-description              : "昆明理工大学"
+description              : "昆明理工大学<br><span style='font-size: 0.8em; vertical-align: baseline;'>Kunming University of Science and Technology</span>"
 repository               : "YCHkunming/YCHkunming.github.io"
 google_scholar_stats_use_cdn : true
 
