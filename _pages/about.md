@@ -34,7 +34,7 @@ redirect_from:
 
 **交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想。  
 
-**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可优先送审。  
+**收稿ing**：欢迎联系本人投稿至野鸡大学校报期刊，高质量稿件可优先送审。  
    
 
 <span class='anchor' id='educations'></span>
