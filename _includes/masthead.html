@@ -5,14 +5,17 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="#about-me">Homepage</a>
+            <a href="#about-me" onclick="event.preventDefault(); document.querySelector(this.hash).scrollIntoView({behavior: 'smooth'});">Homepage</a>
           </li>
           
           {% if page.url contains '/english.html' or page.url contains '/en/' %}
             {% assign nav_links = site.data.navigation_en.main %}
+            
             {% for link in nav_links %}
               <li class="masthead__menu-item">
-                <a href="/english.html{{ link.url }}">{{ link.title }}</a>
+                <a href="{{ link.url }}" onclick="event.preventDefault(); document.querySelector(this.hash).scrollIntoView({behavior: 'smooth'});">
+                  {{ link.title }}
+                </a>
               </li>
             {% endfor %}
 
