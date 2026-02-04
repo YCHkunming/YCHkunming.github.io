@@ -1,10 +1,7 @@
 ---
-layout: archive
 permalink: /en/
 title: "Chen Yang"
 author_profile: true
-sidebar:
-  nav: "docs"
 redirect_from: 
   - /en
 ---
