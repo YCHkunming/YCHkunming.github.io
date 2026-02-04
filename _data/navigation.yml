@@ -1,28 +1,24 @@
-# main links links
 main:
-  - title: "简介"
-    url: "/#about-me"
-
-  - title: "教育经历"
-    url: "/#educations"
-
-  - title: "工作经历"
-    url: "/#jobs"
-
-  - title: "学术兼职"
-    url: "/#jobs2"
-
-  - title: "科研项目"
-    url: "/#projects"
-
-  - title: "团队成员"
-    url: "/#people"
-
-  - title: "学术论文"
-    url: "/#publications"
-
-  # - title: "学术活动"
-  #   url: "/#activity"
-
-  - title: "其他"
-    url: "/#others"
+  - title: "About"        # 原来是 "简介"
+    url: /#about-me
+    
+  - title: "Education"    # 原来是 "教育经历"
+    url: /#educations
+    
+  - title: "Experience"   # 原来是 "工作经历"
+    url: /#jobs
+    
+  - title: "Services"     # 原来是 "学术兼职"
+    url: /#services       # 注意：请确保你主页里有对应的 id='services'
+    
+  - title: "Projects"     # 原来是 "科研项目"
+    url: /#projects
+    
+  - title: "Team"         # 原来是 "团队成员"
+    url: /#people
+    
+  - title: "Publications" # 原来是 "学术论文"
+    url: /#publications
+    
+  - title: "Misc"         # 原来是 "其他"
+    url: /#award          # 根据你之前的代码，这里好像链接的是 award 或其他 id
