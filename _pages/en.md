@@ -1,8 +1,10 @@
 ---
-layout: archive
-permalink: /en
+layout: single
+permalink: /en/
 title: "Chen Yang"
 author_profile: true
+redirect_from: 
+  - /en
 ---
 
 <div style="text-align: right;">
