@@ -1,9 +1,10 @@
 ---
-permalink: /en/
+permalink: /en.html
 title: "Chen Yang"
 author_profile: true
 redirect_from: 
   - /en
+  - /en/
 ---
 
 <div style="text-align: right;">
